@@ -39,25 +39,25 @@ if [ ! -d "config" ]; then
 fi
 
 if [ ! -f "server.properties" ]; then
-    curl -o server.properties https://raw.githubusercontent.com/Voltrapro/Software-Optimizations/refs/heads/main/eggs/purpur/config/server.properties
+    curl -o server.properties https://raw.githubusercontent.com/IC-DEVLEPMENTS/Optimization-egg/refs/heads/main/Paper/config/server.properties
 fi
 
 if [ ! -f "bukkit.yml" ]; then
-    curl -o bukkit.yml https://raw.githubusercontent.com/Voltrapro/Software-Optimizations/refs/heads/main/eggs/purpur/config/bukkit.yml
+    curl -o bukkit.yml https://raw.githubusercontent.com/IC-DEVLEPMENTS/Optimization-egg/refs/heads/main/Paper/config/bukkit.yml
 fi
 
 if [ ! -f "spigot.yml" ]; then
-    curl -o spigot.yml https://raw.githubusercontent.com/Voltrapro/Software-Optimizations/refs/heads/main/eggs/purpur/config/spigot.yml
+    curl -o spigot.yml https://raw.githubusercontent.com/IC-DEVLEPMENTS/Optimization-egg/refs/heads/main/Paper/config/spigot.yml
 fi
 
 if [ ! -f "config/paper-global.yml" ]; then
-    curl -o config/paper-global.yml https://raw.githubusercontent.com/Voltrapro/Software-Optimizations/refs/heads/main/eggs/purpur/config/world/paper-global.yml
+    curl -o config/paper-global.yml https://raw.githubusercontent.com/IC-DEVLEPMENTS/Optimization-egg/refs/heads/main/Paper/config/world/paper-global.yml
 fi
 
 if [ ! -f "config/paper-world-defaults.yml" ]; then
-    curl -o config/paper-world-defaults.yml https://raw.githubusercontent.com/Voltrapro/Software-Optimizations/refs/heads/main/eggs/purpur/config/world/paper-world-defaults.yml
+    curl -o config/paper-world-defaults.yml https://raw.githubusercontent.com/IC-DEVLEPMENTS/Optimization-egg/refs/heads/main/Paper/config/world/paper-world-defaults.yml
 fi
 
 if [ ! -f "config/purpur.yml" ]; then
-    curl -o purpur.yml https://raw.githubusercontent.com/Voltrapro/Software-Optimizations/refs/heads/main/eggs/purpur/config/purpur.yml
+    curl -o purpur.yml https://raw.githubusercontent.com/IC-DEVLEPMENTS/Optimization-egg/refs/heads/main/Paper/config/purpur.yml
 fi
